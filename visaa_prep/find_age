@@ -1,0 +1,3 @@
+X=int(input().strip())
+V_age=X-15
+print(V_age)
