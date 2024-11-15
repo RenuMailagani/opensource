@@ -1,0 +1,3 @@
+X,Y,Z=map(int,input().strip().split())
+max_mangoes=(Z-Y)//X
+print(max_mangoes)
