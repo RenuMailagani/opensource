@@ -1,0 +1,6 @@
+X=int(input().strip())
+d_10_percent=X*0.10
+d_flat_100=100
+max_d=max(d_10_percent,d_flat_100)
+a_to_pay=X-max_d
+print(int(a_to_pay))
