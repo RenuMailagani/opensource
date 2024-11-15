@@ -1,0 +1,2 @@
+N = input().strip()
+print("Vignesh" if sum(int(d) for d in N) % 2 == 0 else "Charan")
