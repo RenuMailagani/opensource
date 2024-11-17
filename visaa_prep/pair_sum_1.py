@@ -1,0 +1,5 @@
+N=int(input())
+a=list(map(int,input().split()))
+k=int(input())
+found=any((k-n) in a[:i] for i, n in enumerate(a))
+print("true" if found else"false")
